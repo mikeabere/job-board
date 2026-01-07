@@ -1,0 +1,66 @@
+/* ========================================
+   MY APPLICATIONS (APPLICANT)
+   ======================================== */
+.my-applications-container {
+  background: white;
+  padding: 2.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.my-applications-container h2 {
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+}
+
+.applications-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.application-card {
+  background: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 1px solid #e9ecef;
+  position: relative;
+}
+
+.application-card h3 {
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.application-card .company {
+  color: #3498db;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.application-card .location {
+  color: #7f8c8d;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.application-card .applied-date {
+  color: #95a5a6;
+  font-size: 0.85rem;
+  margin-bottom: 1rem;
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  color: white;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.no-applications {
+  text-align: center;
+  color: #7f8c8d;
+  padding: 3rem;
+}
