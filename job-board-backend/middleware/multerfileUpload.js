@@ -23,7 +23,7 @@ const fileFilter = (req, file, cb) => {
     cb(new Error('Only PDF and DOC files are allowed'));
   }
 };
-
+ // should be exported
 const upload = multer({
   storage: storage,
   limits: { fileSize: 5 * 1024 * 1024 }, // 5MB limit

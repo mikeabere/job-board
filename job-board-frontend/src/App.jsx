@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
+import {Router, Routes, Route, Link} from 'react-router-dom';
 import './App.css';
+import {Login, Register} from './pages/index';
 
 const API_URL = 'http://localhost:5000/api';
 
