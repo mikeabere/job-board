@@ -4,7 +4,7 @@ const User = require("./models/UserModel.js");
 
 
 // Register
-export const authControllers = {
+export const authControllers = { //object
         register: async (req, res) => {
         try {
           const { name, email, password, role, company, phone } = req.body;
