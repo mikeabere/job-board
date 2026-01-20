@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import {Router, Routes, Route, Link} from 'react-router-dom'; //will refactor 
+//import {Router, Routes, Route, Link} from 'react-router-dom'; //will refactor 
 import './App.css';
 import {Login, Register} from './pages/index';
 
